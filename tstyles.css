@@ -1,0 +1,34 @@
+.my-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.my-table th,
+.my-table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.my-table th {
+  background-color: #ffe6b3;
+}
+
+.menu {
+      margin: 0 auto;
+ border-collapse: collapse;
+cell-padding=0px;
+    }
+    .menu th, .menu td {
+
+      border: 1px solid black;
+      padding: 10px;
+    }
+button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+    

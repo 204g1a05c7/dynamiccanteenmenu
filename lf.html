@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form </title>
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form " action="secondpage.php" target="_blank">
+                <h2>SIGN IN TO YOUR ACCOUNT</h2>
+                <input type="text" required placeholder="Username" id="user" autocomplete="off" />
+                <input oninput="return formvalid()" type="password" required placeholder="Password" id="pass"
+                    autocomplete="off" />
+                <img src="hideicon.png"
+                    onclick="show()" id="showimg">
+                <span id="vaild-pass"></span>
+                <button type="submit">SIGN IN</button>
+                <p class="message"><a href="#">Forgot your password?</a></p>
+            </form>
+        </div>
+    </div>
+<div id="error-message"></div>
+
+    <script src="lf.js"></script>
+</body>
+
+</html>
